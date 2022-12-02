@@ -1,0 +1,21 @@
+{
+  "name": "skyline/table-view-component-api",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skyline\\API\\": "PHP"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "skyline/api": "^0.9",
+    "skyline/component-skyline": "^0.8"
+  }
+}
