@@ -10,14 +10,14 @@ return [
 		"js" => new JavaScriptComponent(
 				...AbstractComponent::makeLocalFileComponentArguments(
 				"/Public/Skyline/table-view-component.min.js",
-				__DIR__ . "/Components/js/skyline.min.js"
+				__DIR__ . "/Components/js/skyline-table-view-component.min.js"
 			)
 		),
         "css" => new CSSComponent(
         	// CSS components are always loaded before the body contents.
 			...AbstractComponent::makeLocalFileComponentArguments(
 				"/Public/Skyline/table-view-component.min.css",
-				__DIR__ . "/Components/css/skyline.min.css",
+				__DIR__ . "/Components/css/skyline-table-view-component.min.css",
 				'sha384',
 				NULL,
 				'all'
